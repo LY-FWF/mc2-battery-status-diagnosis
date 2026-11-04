@@ -7,7 +7,7 @@ export default defineConfig({
 	plugins: [vue(), UnoCSS()],
 	base: './',
 	build: {
-		outDir: 'dist/battery-status-diagnosis',
+		outDir: 'dist/mc2-battery-status-diagnosis',
 		rollupOptions: {
 			output: {
 				entryFileNames: '[name].js',
